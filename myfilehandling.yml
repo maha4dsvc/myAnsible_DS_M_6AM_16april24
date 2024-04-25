@@ -6,3 +6,7 @@
   - name: install apache2
     apt:
       name: apache2
+  - name: copy a file into node 
+    copy:
+       src: myindexfile
+       dest: /home/azureuser
