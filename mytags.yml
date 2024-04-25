@@ -5,9 +5,14 @@
   - name: install git
     apt:
       name: git  
+    tags: mygit
+
   - name: install wget
     apt:  
       name: wget
+    tags: mywget
+
   - name: install tree
     apt:  
       name: tree
+    tags: mytree
