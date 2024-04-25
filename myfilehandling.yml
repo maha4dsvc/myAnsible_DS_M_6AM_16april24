@@ -1,0 +1,8 @@
+---
+- hosts: 10.0.0.5
+  become: yes
+  tasks: 
+  - include_taks: myfile.yml
+  - name: install apache2
+    apt:
+      name: apache2
