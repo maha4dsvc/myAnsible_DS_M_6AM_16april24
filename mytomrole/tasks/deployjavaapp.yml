@@ -1,0 +1,6 @@
+---
+- name: i want to deploy java application 
+  get_url:
+    url: https://mystorageacc28april24.blob.core.windows.net/myfolder/login.war
+    dest: /opt/tomcat/webapps/login.war
+    force_basic_auth: yes
